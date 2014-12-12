@@ -14,7 +14,7 @@
 -(NSString*)content
 {
     NSArray *array = [PlayingCard allRank];
-    return [[array objectAtIndex:self.rank] stringByAppendingString:self.suit];
+    return [array[self.rank] stringByAppendingString:self.suit];
 }
 
 +(NSArray *)validSuits
@@ -24,7 +24,7 @@
 
 +(NSArray*)allRank
 {
-    return @[@"?",@"A",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
+    return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
 }
 
 +(int)maxRank

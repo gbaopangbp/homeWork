@@ -44,7 +44,7 @@
     Card* card = nil;
     if ([self.cards count] > 0) {
         int index = arc4random()%[_cards count];
-        card = [_cards objectAtIndex:index];
+        card = _cards[index];
         [self.cards removeObject:card];
     }
     return  card;

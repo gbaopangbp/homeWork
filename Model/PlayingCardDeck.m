@@ -16,7 +16,7 @@
     if (self) {
         for (NSString * suit in [PlayingCard validSuits])
         {
-            for (int rank = 1; rank <= [PlayingCard maxRank]; rank++)
+            for (int rank = 1; rank < [PlayingCard maxRank]; rank++)
             {
                 PlayingCard *card = [[PlayingCard alloc] init];
                 card.rank = rank;
