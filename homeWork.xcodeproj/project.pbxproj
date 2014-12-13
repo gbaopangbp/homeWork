@@ -25,6 +25,7 @@
 		46AFE03A1A3839A500BC99E3 /* homeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFE0391A3839A500BC99E3 /* homeWorkTests.m */; };
 		46AFE0451A384B4100BC99E3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFE0441A384B4100BC99E3 /* Card.m */; };
 		46AFE0491A384B9B00BC99E3 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFE0481A384B9B00BC99E3 /* Deck.m */; };
+		46BD19211A3AD05C00408D70 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BD19201A3AD05C00408D70 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		46AFE0441A384B4100BC99E3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		46AFE0471A384B9B00BC99E3 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
 		46AFE0481A384B9B00BC99E3 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		46BD191F1A3AD05C00408D70 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		46BD19201A3AD05C00408D70 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				469B644A1A39722600EB7F3A /* PlayingCard.m */,
 				469B644C1A399CF200EB7F3A /* PlayingCardDeck.h */,
 				469B644D1A399CF200EB7F3A /* PlayingCardDeck.m */,
+				46BD191F1A3AD05C00408D70 /* CardMatchingGame.h */,
+				46BD19201A3AD05C00408D70 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			path = ..;
@@ -282,6 +287,7 @@
 				46AFE0491A384B9B00BC99E3 /* Deck.m in Sources */,
 				46AFE0251A3839A500BC99E3 /* ViewController.m in Sources */,
 				46AFE01F1A3839A500BC99E3 /* AppDelegate.m in Sources */,
+				46BD19211A3AD05C00408D70 /* CardMatchingGame.m in Sources */,
 				469B644E1A399CF200EB7F3A /* PlayingCardDeck.m in Sources */,
 				46AFE01B1A3839A500BC99E3 /* main.m in Sources */,
 				46AFE0451A384B4100BC99E3 /* Card.m in Sources */,

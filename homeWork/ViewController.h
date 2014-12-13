@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (IBAction)pressCard:(id)sender;
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonArray;
 @end

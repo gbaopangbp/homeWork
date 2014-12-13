@@ -44,4 +44,19 @@
     return _suit?_suit:@"?";
 }
 
+-(int)match:(NSArray *)otherCards
+{
+    int score = 0;
+    PlayingCard *other = [otherCards firstObject];
+    if (self.rank == other.rank)
+    {
+        score = 4;
+    }
+    else if([self.suit isEqualToString:other.suit])
+    {
+        score = 1;
+    }
+    return score;
+}
+
 @end
