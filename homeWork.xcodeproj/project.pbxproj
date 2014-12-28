@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46764B371A500B0100F0859C /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46764B361A500B0100F0859C /* PlayViewController.m */; };
 		469B644B1A39722600EB7F3A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 469B644A1A39722600EB7F3A /* PlayingCard.m */; };
 		469B644E1A399CF200EB7F3A /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 469B644D1A399CF200EB7F3A /* PlayingCardDeck.m */; };
 		46AFE00F1A3839A500BC99E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AFE00E1A3839A500BC99E3 /* Foundation.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46764B351A500B0100F0859C /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		46764B361A500B0100F0859C /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		469B64491A39722600EB7F3A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
 		469B644A1A39722600EB7F3A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		469B644C1A399CF200EB7F3A /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				46AFE0201A3839A500BC99E3 /* Main.storyboard */,
 				46AFE0231A3839A500BC99E3 /* ViewController.h */,
 				46AFE0241A3839A500BC99E3 /* ViewController.m */,
+				46764B351A500B0100F0859C /* PlayViewController.h */,
+				46764B361A500B0100F0859C /* PlayViewController.m */,
 				46AFE0461A384B4F00BC99E3 /* Model */,
 				46AFE0261A3839A500BC99E3 /* Images.xcassets */,
 				46AFE0151A3839A500BC99E3 /* Supporting Files */,
@@ -290,6 +295,7 @@
 				46BD19211A3AD05C00408D70 /* CardMatchingGame.m in Sources */,
 				469B644E1A399CF200EB7F3A /* PlayingCardDeck.m in Sources */,
 				46AFE01B1A3839A500BC99E3 /* main.m in Sources */,
+				46764B371A500B0100F0859C /* PlayViewController.m in Sources */,
 				46AFE0451A384B4100BC99E3 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

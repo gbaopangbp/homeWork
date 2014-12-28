@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Deck.h"
 
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonArray;
+
+//虚函数
+-(Deck *)createCardDeck;
+
 @end

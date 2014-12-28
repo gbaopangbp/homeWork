@@ -42,9 +42,9 @@
 //    return _playDeck;
 //}
 
--(PlayingCardDeck *)createCardDeck
+-(Deck *)createCardDeck
 {
-    return [[PlayingCardDeck alloc] init];
+    return nil;
 }
 
 - (void)viewDidLoad
